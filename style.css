@@ -1,52 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background-color: #f4f6f8;
-    color: #333;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  color: #333;
 }
 
 header {
-    background-color: #0a2540;
-    color: white;
-    text-align: center;
-    padding: 40px 20px;
+  background: #0a2540;
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.cargo {
+  font-size: 1.2em;
+  margin-top: 5px;
+}
+
+.resumo {
+  max-width: 700px;
+  margin: 20px auto;
+  line-height: 1.6;
+}
+
+.botoes a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background: white;
+  color: #0a2540;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
 }
 
 section {
-    max-width: 900px;
-    margin: 40px auto;
-    padding: 0 20px;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
 }
 
 h2 {
-    color: #0a2540;
-    border-bottom: 2px solid #0a2540;
-    padding-bottom: 5px;
+  color: #0a2540;
+  border-bottom: 2px solid #0a2540;
+  padding-bottom: 5px;
 }
 
-.projeto {
-    background: white;
-    padding: 20px;
-    margin-top: 20px;
-    border-radius: 6px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+.card {
+  background: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
 }
 
-.projeto a {
-    display: inline-block;
-    margin-top: 10px;
-    color: #0a2540;
-    font-weight: bold;
-    text-decoration: none;
+.card span {
+  font-size: 0.9em;
+  color: #555;
 }
 
-ul {
-    list-style-type: square;
+.card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #0a2540;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #0a2540;
-    color: white;
+  text-align: center;
+  background: #0a2540;
+  color: white;
+  padding: 20px;
 }
